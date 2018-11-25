@@ -1,5 +1,4 @@
 .header {
-    background-image: url(../../../assets/images/header-images/bg-img-uraya.png);
     font-family: Roboto,sans-serif;
     padding: 20px 10px;
     max-height: 200px;
@@ -24,7 +23,7 @@
 
 .header-links {
     float: right;
-    margin-right: 3vw;
+    margin-right: 1vw;
 }
 
 @media screen and (max-width: 650px) {
@@ -35,15 +34,20 @@
     }
 
     .header a {
+      background: white;
+      border: 1px solid black;
       color: black;
       display: block;
-      font-size: 20px;
-      height: 20px;
+      font-size: 14px;
+      height: 6px;
+      line-height: 6px;
       text-align: center; 
+  
        }
 
     .header-links {
       float: none;
+      margin-top: 10px;
     }
   }
 
