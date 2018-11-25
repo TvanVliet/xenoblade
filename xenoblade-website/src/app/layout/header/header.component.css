@@ -1,5 +1,6 @@
 .header {
     background-image: url(../../../assets/images/header-images/bg-img-uraya.png);
+    font-family: Roboto,sans-serif;
     padding: 20px 10px;
     max-height: 200px;
     height: 70px;
@@ -12,6 +13,8 @@
 
 .header a {
     color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
     font-size: 30px;
     padding: 20px;
     line-height: 70px;
@@ -21,6 +24,7 @@
 
 .header-links {
     float: right;
+    margin-right: 3vw;
 }
 
 @media screen and (max-width: 650px) {
