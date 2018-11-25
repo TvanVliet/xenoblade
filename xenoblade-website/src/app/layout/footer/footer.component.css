@@ -1,0 +1,17 @@
+.footer {
+    position: absolute;
+    background: black;
+    bottom: 0;
+    height: 100px;
+    width: 100vw;
+}
+
+.footer img {
+    height: 100px;
+}
+
+.footer p {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
