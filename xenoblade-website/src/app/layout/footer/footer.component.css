@@ -1,6 +1,9 @@
 .footer {
-    position: absolute;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-column-gap: 1em;
     background: black;
+    position: absolute;
     bottom: 0;
     height: 100px;
     width: 100vw;
@@ -8,10 +11,10 @@
 
 .footer img {
     height: 100px;
+    margin-left: 20px;
 }
 
 .footer p {
     float: right;
-    padding-top: 20px;
-    padding-right: 20px;
+    padding-top: 25px;
 }
